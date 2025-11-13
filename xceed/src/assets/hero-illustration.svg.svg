@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" fill="none">
+  <rect width="720" height="480" rx="24" fill="#071024"></rect>
+  <g transform="translate(40,40)" fill="#7c5cff">
+    <rect x="0" y="0" width="320" height="200" rx="12" opacity="0.18"></rect>
+    <rect x="360" y="0" width="320" height="120" rx="12" opacity="0.14"></rect>
+    <rect x="360" y="140" width="200" height="180" rx="12" opacity="0.12"></rect>
+  </g>
+  <text x="60" y="330" fill="#9aa4b2" font-size="20" font-family="Arial">Illustrative layout — replace with your SVG</text>
+</svg>
