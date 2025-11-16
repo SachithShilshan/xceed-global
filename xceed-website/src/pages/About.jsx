@@ -1,3 +1,4 @@
+// src/pages/About.jsx
 import React from 'react';
 
 export default function About() {
@@ -19,10 +20,25 @@ export default function About() {
             <h3 className="font-semibold">Approach</h3>
             <p className="text-sm mt-2 text-slate-600 dark:text-slate-300">Product-led engineering, human-centered design and robust MLOps & data engineering practices.</p>
           </div>
+
           <div className="p-4 border rounded-lg bg-white dark:bg-slate-800">
-            <h3 className="font-semibold">Team</h3>
-            <p className="text-sm mt-2 text-slate-600 dark:text-slate-300">Cross-disciplinary engineers, analysts and product designers with domain experience.</p>
+            <h3 className="font-semibold">Team & Founder</h3>
+            <div className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+              <div><strong>Shilshan Bandara</strong></div>
+              <div className="text-xs">Specialist in BI, Data & AI</div>
+              <div className="text-xs">Owner • Co-founder • CEO — XCEED</div>
+              <div className="mt-2">
+                <a href="https://www.linkedin.com/in/sachith-shilshan/" target="_blank" rel="noopener noreferrer" className="text-teal-600 dark:text-teal-300 underline">
+                  View LinkedIn profile → 
+                </a>
+              </div>
+            </div>
           </div>
+        </div>
+
+        <div className="mt-8">
+          <h2 className="text-2xl font-bold">What we believe</h2>
+          <p className="mt-2 text-slate-600 dark:text-slate-300">Technology should amplify human potential, not replace it. Our solutions prioritize both measurable business value and better experiences for the people who use them.</p>
         </div>
       </div>
     </div>

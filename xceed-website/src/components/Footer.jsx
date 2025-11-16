@@ -1,3 +1,4 @@
+// src/components/Footer.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -17,11 +18,19 @@ export default function Footer() {
           <Link to="/about" className="text-sm hover:underline">About</Link>
           <Link to="/services" className="text-sm hover:underline">Services</Link>
           <Link to="/products" className="text-sm hover:underline">Products</Link>
+          <Link to="/portfolio" className="text-sm hover:underline">Portfolio</Link>
           <Link to="/contact" className="text-sm hover:underline">Contact</Link>
         </nav>
 
-        <div className="text-sm text-slate-500 dark:text-slate-400">
-          © {new Date().getFullYear()} XCEED. Built for businesses.
+        <div className="flex items-center gap-4">
+          <a href="https://www.linkedin.com/company/xceed1/" target="_blank" rel="noopener noreferrer" className="text-sm hover:underline">LinkedIn</a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-sm hover:underline">Facebook</a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" className="text-sm hover:underline">YouTube</a>
+        </div>
+
+        <div className="text-sm text-slate-500 dark:text-slate-400 text-center md:text-right">
+          <div>© {new Date().getFullYear()} XCEED — Built by Shilshan Bandara</div>
+          <div className="mt-1">Specialist in BI, Data & AI — <a href="https://www.linkedin.com/in/sachith-shilshan/" target="_blank" rel="noopener noreferrer" className="underline">Connect</a></div>
         </div>
       </div>
     </footer>
