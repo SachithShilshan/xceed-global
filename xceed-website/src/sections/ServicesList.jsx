@@ -2,6 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function ServicesList({ data }) {
+  // mapping of keys to slugs (keeps slugs explicit & stable)
+  const slugMap = {
+    ai: 'ai',
+    dataEngineering: 'data-engineering',
+    bi: 'bi',
+    automation: 'automation',
+    research: 'research',
+    robotics: 'robotics'
+  };
+
   return (
     <section id="services" className="py-12 bg-slate-50 dark:bg-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,7 +29,7 @@ export default function ServicesList({ data }) {
                 ))}
               </div>
               <div className="mt-4">
-                <Link className="text-sm inline-flex items-center gap-2 font-medium text-teal-600 dark:text-teal-300" to={`/services/${k === 'ai' ? 'ai' : k === 'dataEngineering' ? 'data-engineering' : k}`}>
+                <Link className="text-sm inline-flex items-center gap-2 font-medium text-teal-600 dark:text-teal-300" to={`/services/${slugMap[k] || k}`}>
                   Learn more →
                 </Link>
               </div>

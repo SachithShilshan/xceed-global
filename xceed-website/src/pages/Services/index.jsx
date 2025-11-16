@@ -34,6 +34,11 @@ export default function ServicesIndex() {
             <div className="font-semibold">{servicesData.research.title}</div>
             <div className="text-sm mt-2 text-slate-600 dark:text-slate-300">{servicesData.research.intro}</div>
           </Link>
+
+          <Link to="/services/robotics" className="p-6 rounded-lg border bg-white dark:bg-slate-800">
+            <div className="font-semibold">{servicesData.robotics.title}</div>
+            <div className="text-sm mt-2 text-slate-600 dark:text-slate-300">{servicesData.robotics.intro}</div>
+          </Link>
         </div>
       </div>
     </div>

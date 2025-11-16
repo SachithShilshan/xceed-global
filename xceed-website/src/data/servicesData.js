@@ -59,6 +59,62 @@ const services = {
       { title: 'Proof of Concepts (PoCs)', items: ['AI model testing', 'Pilot automation solutions', 'Prototype BI dashboards'] },
       { title: 'Organizational Data Maturity Assessment', items: ['Capability benchmarking', 'Roadmap recommendations'] }
     ]
+  },
+
+  // NEW robotics section
+  robotics: {
+    title: 'Robotics, Bionics & Future Intelligence',
+    intro: 'Designing intelligent robotic systems, advanced prosthetics, and pioneering research into next-generation intelligence.',
+    sections: [
+      {
+        title: 'AI Robotics / Intelligent Robotics',
+        items: [
+          'Developing autonomous robots using AI & computer vision',
+          'Decision-making algorithms and reinforcement learning for robots',
+          'Perception pipelines for real-world environments'
+        ]
+      },
+      {
+        title: 'Biorobotics / Biomechatronics',
+        items: [
+          'Integrating robotics with biomechanics and electronics',
+          'Design of human-assistive robotic systems',
+          'Sensor fusion for natural movement'
+        ]
+      },
+      {
+        title: 'Bionics',
+        items: [
+          'Advanced prosthetic limbs with embedded sensors and control',
+          'Actuation and feedback systems to replicate biological function',
+          'Wearables and implantable assistive devices'
+        ]
+      },
+      {
+        title: 'Biomechanics + Robotics (Biomechatronics / Biorobotics)',
+        items: [
+          'Human movement analysis to inform robot design',
+          'Exoskeletons and movement augmentation',
+          'Ergonomics-driven robotic integration'
+        ]
+      },
+      {
+        title: 'Neuroprosthetics',
+        items: [
+          'Brain–machine interfaces for control of prosthetics',
+          'Neural signal processing and decoding',
+          'Sensory feedback loops and adaptive control'
+        ]
+      },
+      {
+        title: 'AGI & ASI Research',
+        items: [
+          'Exploratory research on human-level general intelligence',
+          'Ethical & safety research for advanced intelligence',
+          'Applied research for future-capable autonomous systems'
+        ]
+      }
+    ]
   }
 };
 

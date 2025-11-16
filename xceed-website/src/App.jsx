@@ -12,6 +12,7 @@ import DataEngineering from './pages/Services/DataEngineering';
 import BI from './pages/Services/BI';
 import Automation from './pages/Services/Automation';
 import Research from './pages/Services/Research';
+import Robotics from './pages/Services/Robotics';
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/services/bi" element={<BI />} />
         <Route path="/services/automation" element={<Automation />} />
         <Route path="/services/research" element={<Research />} />
+        <Route path="/services/robotics" element={<Robotics />} />
 
         <Route path="/products" element={<Products />} />
         <Route path="/portfolio" element={<Portfolio />} />

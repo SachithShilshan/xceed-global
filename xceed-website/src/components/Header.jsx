@@ -42,13 +42,14 @@ export default function Header() {
                 Services ▾
               </button>
 
-              <div className="absolute left-0 mt-2 w-64 bg-white dark:bg-slate-900 rounded-lg shadow-lg border border-slate-100 dark:border-slate-800 opacity-0 group-hover:opacity-100 transform translate-y-1 group-hover:translate-y-0 transition-all pointer-events-none group-hover:pointer-events-auto">
+              <div className="absolute left-0 mt-2 w-72 bg-white dark:bg-slate-900 rounded-lg shadow-lg border border-slate-100 dark:border-slate-800 opacity-0 group-hover:opacity-100 transform translate-y-1 group-hover:translate-y-0 transition-all pointer-events-none group-hover:pointer-events-auto">
                 <div className="p-4 grid grid-cols-1 gap-3">
                   <Link to="/services/ai" className="block text-sm font-semibold hover:underline">Artificial Intelligence</Link>
                   <Link to="/services/data-engineering" className="block text-sm font-semibold hover:underline">Data Engineering & Platform</Link>
                   <Link to="/services/bi" className="block text-sm font-semibold hover:underline">Business Intelligence</Link>
                   <Link to="/services/automation" className="block text-sm font-semibold hover:underline">Automation & Digital Ops</Link>
                   <Link to="/services/research" className="block text-sm font-semibold hover:underline">Research & Strategy</Link>
+                  <Link to="/services/robotics" className="block text-sm font-semibold hover:underline">Robotics & Bionics</Link>
                 </div>
               </div>
             </div>
@@ -86,6 +87,7 @@ export default function Header() {
               <Link to="/services/bi" className="block px-3 py-2">BI & Dashboards</Link>
               <Link to="/services/automation" className="block px-3 py-2">Automation</Link>
               <Link to="/services/research" className="block px-3 py-2">Research & Strategy</Link>
+              <Link to="/services/robotics" className="block px-3 py-2">Robotics & Bionics</Link>
             </div>
           </details>
 
