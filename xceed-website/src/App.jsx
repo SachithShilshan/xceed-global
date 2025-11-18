@@ -32,7 +32,6 @@ export default function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/xceed-global/contact" element={<Contact />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </MainLayout>

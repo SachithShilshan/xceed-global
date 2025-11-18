@@ -18,12 +18,14 @@ export default function Hero({
             </h1>
             <p className="mt-4 text-slate-600 dark:text-slate-300">{subtitle}</p>
             <div className="mt-6 flex items-center gap-4">
-              <a
-                href={cta.href}
+              {/* Use Link for client-side routing so path stays "/contact" */}
+              <Link
+                to={cta.href}
                 className="inline-flex items-center px-5 py-3 rounded-lg bg-teal-500 text-white font-medium shadow hover:opacity-95"
               >
                 {cta.text}
-              </a>
+              </Link>
+
               <a
                 href="/#services"
                 className="text-sm text-slate-600 dark:text-slate-300 hover:underline"

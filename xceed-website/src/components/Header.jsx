@@ -23,7 +23,7 @@ export default function Header() {
       className="fixed inset-x-0 top-0.5 z-40 bg-white/80 dark:bg-slate-900/80 backdrop-blur border-b border-slate-200 dark:border-slate-800"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
-        <div className="flex items-center gap-10">
+        <div className="flex items-center gap-12">
           <Link to="/" className="flex items-center gap-4">
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-teal-400 to-cyan-700 flex items-center justify-center text-white font-bold">
               X
@@ -33,7 +33,7 @@ export default function Header() {
               {/* <div className="text-xs -mt-0.5 text-slate-500 dark:text-slate-400">AI • Data • Automation</div> */}
             </div>
           </Link>
-          <nav className="hidden lg:flex items-center space-x-2">
+          <nav className="hidden lg:flex items-center space-x-3">
             <NavItem to="/">Home</NavItem>
             <NavItem to="/about">About Us</NavItem>
 
@@ -42,7 +42,7 @@ export default function Header() {
                 Services ▾
               </button>
 
-              <div className="absolute left-0 mt-2 w-72 bg-white dark:bg-slate-900 rounded-lg shadow-lg border border-slate-100 dark:border-slate-800 opacity-0 group-hover:opacity-100 transform translate-y-1 group-hover:translate-y-0 transition-all pointer-events-none group-hover:pointer-events-auto">
+              <div className="absolute left-0 mt-2 w-80 bg-white dark:bg-slate-900 rounded-lg shadow-lg border border-slate-100 dark:border-slate-800 opacity-0 group-hover:opacity-100 transform translate-y-1 group-hover:translate-y-0 transition-all pointer-events-none group-hover:pointer-events-auto">
                 <div className="p-4 grid grid-cols-1 gap-3">
                   <Link to="/services/ai" className="block text-sm font-semibold hover:underline">Artificial Intelligence</Link>
                   <Link to="/services/data-engineering" className="block text-sm font-semibold hover:underline">Data Engineering & Platform</Link>

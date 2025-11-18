@@ -55,7 +55,7 @@ export default function Home() {
       <Hero
         title="Empowering Humans & Businesses to Exceed"
         subtitle="Helping people and companies go beyond their limits using smart, innovative solutions."
-        cta={{ text: 'Talk to an Expert', href: '/xceed-global/contact' }}
+        cta={{ text: 'Talk to an Expert', href: '/contact' }}
       />
 
       {/* Trust strip */}
