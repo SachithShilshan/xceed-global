@@ -19,21 +19,21 @@ export default function Header() {
 
   return (
     <header
-      style={{ height: '72px' }}
-      className="fixed inset-x-0 top-0 z-40 bg-white/80 dark:bg-slate-900/80 backdrop-blur border-b border-slate-200 dark:border-slate-800"
+      style={{ height: '80px' }}
+      className="fixed inset-x-0 top-0.5 z-40 bg-white/80 dark:bg-slate-900/80 backdrop-blur border-b border-slate-200 dark:border-slate-800"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
-        <div className="flex items-center gap-6">
-          <Link to="/" className="flex items-center gap-3">
+        <div className="flex items-center gap-10">
+          <Link to="/" className="flex items-center gap-4">
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-teal-400 to-cyan-700 flex items-center justify-center text-white font-bold">
               X
             </div>
             <div className="hidden md:block">
               <div className="font-bold">XCEED</div>
-              <div className="text-xs -mt-0.5 text-slate-500 dark:text-slate-400">AI • Data • Automation</div>
+              {/* <div className="text-xs -mt-0.5 text-slate-500 dark:text-slate-400">AI • Data • Automation</div> */}
             </div>
           </Link>
-          <nav className="hidden lg:flex items-center space-x-1">
+          <nav className="hidden lg:flex items-center space-x-2">
             <NavItem to="/">Home</NavItem>
             <NavItem to="/about">About Us</NavItem>
 

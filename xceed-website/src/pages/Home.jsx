@@ -53,9 +53,9 @@ export default function Home() {
   return (
     <div>
       <Hero
-        title="We help businesses — and the people behind them — exceed."
-        subtitle="Practical AI, reliable data platforms and human-centered automation that deliver measurable results and happier teams."
-        cta={{ text: 'Talk to an Expert', href: '/contact' }}
+        title="Empowering Humans & Businesses to Exceed"
+        subtitle="Helping people and companies go beyond their limits using smart, innovative solutions."
+        cta={{ text: 'Talk to an Expert', href: '/xceed-global/contact' }}
       />
 
       {/* Trust strip */}

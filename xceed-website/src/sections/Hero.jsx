@@ -67,7 +67,7 @@ export default function Hero({
                 <li>• End-to-end dashboard & reporting workflows</li>
                 <li>• Integrated Power BI live analytics</li>
                 <li>• Department-wise role dashboards</li>
-                <li>• Fully deployed on GitHub Pages</li>
+                <li>• Data Management</li>
               </ul>
 
               <div className="mt-4 flex items-center gap-3">
@@ -99,9 +99,7 @@ export default function Hero({
             </div>
 
             {/* Small right-side info */}
-            <div className="text-xs text-slate-400 dark:text-slate-500">
-              Live on GitHub Pages — fast, stable and fully responsive.
-            </div>
+            
           </div>
         </div>
       </div>
