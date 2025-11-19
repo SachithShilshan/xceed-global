@@ -59,28 +59,7 @@ export default function Home() {
       />
 
       {/* Trust strip */}
-      <section className="py-6">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-6">
-            <div className="text-center">
-              <div className="text-2xl font-bold">4.2x</div>
-              <div className="text-sm text-slate-600 dark:text-slate-300">Avg ROI</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold">8 weeks</div>
-              <div className="text-sm text-slate-600 dark:text-slate-300">Typical time-to-value</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold">30+</div>
-              <div className="text-sm text-slate-600 dark:text-slate-300">Organizations helped</div>
-            </div>
-          </div>
-
-          <div className="text-sm text-slate-600 dark:text-slate-300">
-            Trusted by product teams, operations leads and data-first organisations.
-          </div>
-        </div>
-      </section>
+     
 
       {/* Feature grid */}
       <FeaturesGrid features={features} />
