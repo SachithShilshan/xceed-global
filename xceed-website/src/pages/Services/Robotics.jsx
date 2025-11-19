@@ -21,21 +21,7 @@ export default function Robotics() {
             </div>
           ))}
 
-          <div className="p-4 border rounded-lg bg-white dark:bg-slate-800">
-            <h3 className="font-semibold">How we work</h3>
-            <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
-              We pursue an engineering-first approach—prototype quickly with hardware-in-the-loop, validate with domain experts,
-              and iterate to production-ready systems that meet safety, reliability and regulatory requirements.
-            </p>
-            <div className="mt-3 text-sm">
-              <strong>Example engagements:</strong>
-              <ul className="list-disc pl-5 mt-2 text-sm">
-                <li>Autonomous inspection robot for industrial facilities</li>
-                <li>AI-enabled prosthetic limb with neural control interface</li>
-                <li>Exoskeleton pilot to improve worker ergonomics and reduce injuries</li>
-              </ul>
-            </div>
-          </div>
+          
 
         </div>
       </div>

@@ -36,10 +36,12 @@ const services = {
     intro: 'Actionable dashboards and self-service analytics empower leaders to decide faster.',
     sections: [
       { title: 'Dashboarding & Reporting', items: ['Executive dashboards', 'Operational dashboards', 'Financial reporting', 'Sales & marketing insights'] },
+      { title: 'Data Integration & ETL/ELT', items: ['Pipeline design', 'API integrations', 'Batch & real-time processing'] },
       { title: 'Self-Service BI', items: ['Power BI governance', 'Data models for self-service', 'Analytical workspaces'] },
       { title: 'KPI & Metrics Frameworks', items: ['OKR tracking', 'Organization KPIs', 'Performance monitoring'] }
     ]
   },
+
   automation: {
     title: 'Automation & Digital Operations',
     intro: 'Automate repetitive work, orchestrate systems, and digitize manual processes at scale.',

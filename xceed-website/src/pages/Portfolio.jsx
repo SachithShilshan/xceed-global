@@ -33,7 +33,7 @@ const articles = [
 export default function Portfolio() {
   return (
     <div className="py-16">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-0">
         <h1 className="text-3xl font-bold">Portfolio & Projects</h1>
         <p className="mt-2 text-slate-600 dark:text-slate-300">Selected projects, code and articles demonstrating practical AI, BI and automation work.</p>
 

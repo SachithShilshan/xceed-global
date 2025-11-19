@@ -4,7 +4,7 @@ import React from 'react';
 export default function Products() {
   return (
     <div className="py-16">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-0">
 
         <h1 className="text-3xl font-bold">Products</h1>
         <p className="mt-2 text-slate-600 dark:text-slate-300">
@@ -60,20 +60,21 @@ export default function Products() {
             <h2 className="text-xl font-semibold">Areté System (Coming Soon)</h2>
 
             <p className="mt-3 text-slate-600 dark:text-slate-300 leading-relaxed">
+              <br2 /><br2/>
               <strong>What is Areté?</strong>
-              <br /><br />
+              <br2 /><br/>
               Areté embodies the pursuit of perfection in every aspect of life — strength, wisdom, and harmony —
               the state where power and purpose unite.  
-              <br /><br />
+              <br1 /><br />
               In the modern age, Areté reawakens this timeless ideal.  
               By uniting martial art, philosophy, and artificial intelligence,  
               Areté transforms human development into a dynamic path of mastery.
-              <br /><br />
+              <br1 /><br />
               Through the balance of discipline, thought, and technology, it guides individuals to master both 
               technique and life itself — evolving human potential to the next level.
-              <br /><br />
+              <br1 /><br />
               Rooted in the Four Pillars of Areté, it strengthens the body, the mind, the spirit and the unity that binds them all.
-              <br /><br />
+              <br1 /><br />
               Areté is not a destination but a state of becoming — where body, mind, and spirit move as one, 
               guided by wisdom and enhanced by intelligence.
             </p>

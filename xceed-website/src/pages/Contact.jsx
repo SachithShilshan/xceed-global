@@ -7,18 +7,18 @@ export default function Contact() {
     <div className="min-h-[50vh] flex flex-col">
       {/* Hero */}
       <header className="bg-gradient-to-r">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 py-7">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-0">
+          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 py-16">
             <div>
               <h1 className="text-3xl sm:text-2xl font-extrabold">Let’s build something that exceeds expectations</h1>
-              <p className="mt-3 text-slate-500 max-w-xl">
+              <p className="mt-3 text-slate-500 max-w-x">
                 Tell us about your challenge — technical, strategic, or operational. We’ll respond within 2 business days and suggest a clear next step.
               </p>
             </div>
 
             <div className="text-sm bg-white/10 px-4 py-2 rounded-md">
               <div className="font-medium">Quick contact</div>
-              <div className="mt-1">Phone: <a className="underline" href="tel:+94771123977">+94 77 112 3977</a></div>
+              <div className="mt-3.5">Phone: <a className="underline" href="tel:+94771123977">+94 77 112 3977</a></div>
             </div>
           </div>
         </div>

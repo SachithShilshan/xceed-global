@@ -4,7 +4,7 @@
 
 /* Small global adjustments */
 :root {
-  --header-height: 80px;
+  --header-height: 72px;
 }
 
 html, body, #root {
@@ -24,6 +24,8 @@ a:focus { outline: 3px solid rgba(14,165,164,0.18); outline-offset: 3px; }
 
 /* Small helper for max-width content */
 .container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+
+
 
 
 
